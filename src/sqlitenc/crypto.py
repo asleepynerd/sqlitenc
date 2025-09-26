@@ -1,11 +1,10 @@
-import base64
 import hashlib
 import hmac
 import json
 import os
 import unicodedata
 from dataclasses import dataclass
-from typing import Iterable, List, Sequence, Tuple
+from typing import List
 
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
